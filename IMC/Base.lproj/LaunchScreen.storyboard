@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="TZZ-A5-m5c">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YSe-2R-934">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="MY0-fL-cAU">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.58039215686274515" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MY0-fL-cAU" secondAttribute="trailing" id="1l2-ty-Hob"/>
+                            <constraint firstItem="TZZ-A5-m5c" firstAttribute="top" secondItem="MY0-fL-cAU" secondAttribute="top" id="6pD-Ji-4hr"/>
+                            <constraint firstItem="MY0-fL-cAU" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="71Q-e4-xx4"/>
+                            <constraint firstItem="MY0-fL-cAU" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="C3p-J0-5dG"/>
+                            <constraint firstAttribute="trailing" secondItem="MY0-fL-cAU" secondAttribute="trailing" id="ISO-UT-mrp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MY0-fL-cAU" secondAttribute="bottom" id="LFZ-r4-ng2"/>
+                            <constraint firstItem="MY0-fL-cAU" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="V8h-DY-jel"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TZZ-A5-m5c" secondAttribute="trailing" constant="55" id="aCy-oU-RZs"/>
+                            <constraint firstItem="MY0-fL-cAU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bAK-cc-Aje"/>
+                            <constraint firstItem="TZZ-A5-m5c" firstAttribute="leading" secondItem="MY0-fL-cAU" secondAttribute="leading" id="cgX-rX-OoH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TZZ-A5-m5c" secondAttribute="bottom" constant="99" id="hbo-r8-H4W"/>
+                            <constraint firstItem="MY0-fL-cAU" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="pX3-8b-NRb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51.5" y="374.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchScreen" width="320" height="568"/>
+    </resources>
+</document>
